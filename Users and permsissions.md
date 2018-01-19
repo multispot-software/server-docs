@@ -1,7 +1,7 @@
 # Users and permissions
 
 The folder `/opt` contains folders shared among different server
- users. It contains also contains custom system-wide files.
+ users. It also contains custom system-wide files.
 
 - source folder `/opt/src`
 - conda installations in `/opt/conda`
