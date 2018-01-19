@@ -35,21 +35,16 @@ git history will track the author of the commit.
 
 Different users may have different commit privileges to github.
 Most repository are part of the `multispot-software` organization
-on github, so each user on the server should be anbled with
-commit provileges on github.
+on github. Each user on the server should be enabled with
+commit privileges on github.
 
 ## Bin folder
 
 This folder contains executables that should be available to
-all users. For example, scripts in `/opt/src/transfer_convert`
-should have a symbolc link in `/opt/bin` for ease of use.
-This will avoid the need to specify the absolute path when
-calling a command, i.e. it will not be necessary to enter the
-source folder and preprend the command with `./`.
+all users. 
 
 Each user that wants to take advantage of this, needs to add
-`/opt/bin` to their PATH in `~/.bashrc`. These commands may still
-require the activation of a conda environment.
+`/opt/bin` to their PATH in `~/.bashrc`. 
 
 Since files in `/opt/bin` are links, their permissions are the
 permission of the target file. Users that can execute
