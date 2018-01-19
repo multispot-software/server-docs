@@ -21,7 +21,7 @@ if the user `maya` runs:
 conda create -n py36-test python=3.6 numpy
 ```
 
-the new environment will be saved in `home/maya/.conda/envs/py36-test`.
+the new environment will be saved in `/home/maya/.conda/envs/py36-test`.
 
 ## Source folder
 
