@@ -25,7 +25,7 @@ the new environment will be saved in `/home/maya/.conda/envs/py36-test`.
 
 ## Source folder
 
-The `/opt/src` folder contatins the sources for different tools.
+The `/opt/src` folder contains the sources for different tools.
 
 - Each subfolders is a git repository.
 - All the members of the `src` group have write access to `/opt/src`
